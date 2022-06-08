@@ -1,0 +1,17 @@
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\bin\Debug\net6.0\eVjezbe1.Infrastructure.deps.json
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\bin\Debug\net6.0\eVjezbe1.Infrastructure.runtimeconfig.json
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\bin\Debug\net6.0\eVjezbe1.Infrastructure.dll
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\bin\Debug\net6.0\eVjezbe1.Infrastructure.pdb
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\bin\Debug\net6.0\eVjezba1.Core.dll
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\bin\Debug\net6.0\eVjezba1.Core.pdb
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.AssemblyInfo.cs
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.csproj.CopyComplete
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.dll
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\refint\eVjezbe1.Infrastructure.dll
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.pdb
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\eVjezbe1.Infrastructure.genruntimeconfig.cache
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezbe1.Infrastructure\obj\Debug\net6.0\ref\eVjezbe1.Infrastructure.dll
