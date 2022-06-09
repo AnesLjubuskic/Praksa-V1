@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\eVjezbe.Service\eVjezbe.Service.csproj" />
     <ProjectReference Include="..\eVjezbe1.Infrastructure\eVjezbe1.Infrastructure.csproj" />
   </ItemGroup>
 

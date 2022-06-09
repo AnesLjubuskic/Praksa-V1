@@ -296,6 +296,22 @@
           "bin/placeholder/eVjezba1.Core.dll": {}
         }
       },
+      "eVjezbe.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "eVjezbe1.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eVjezbe.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eVjezbe.Service.dll": {}
+        }
+      },
       "eVjezbe1.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -767,6 +783,11 @@
       "path": "../eVjezba1.Core/eVjezba1.Core.csproj",
       "msbuildProject": "../eVjezba1.Core/eVjezba1.Core.csproj"
     },
+    "eVjezbe.Service/1.0.0": {
+      "type": "project",
+      "path": "../eVjezbe.Service/eVjezbe.Service.csproj",
+      "msbuildProject": "../eVjezbe.Service/eVjezbe.Service.csproj"
+    },
     "eVjezbe1.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../eVjezbe1.Infrastructure/eVjezbe1.Infrastructure.csproj",
@@ -780,6 +801,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.5",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
+      "eVjezbe.Service >= 1.0.0",
       "eVjezbe1.Infrastructure >= 1.0.0"
     ]
   },
@@ -820,6 +842,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Anes\\Desktop\\Praksa V1\\eVjezba1\\eVjezbe.Service\\eVjezbe.Service.csproj": {
+              "projectPath": "C:\\Users\\Anes\\Desktop\\Praksa V1\\eVjezba1\\eVjezbe.Service\\eVjezbe.Service.csproj"
+            },
             "C:\\Users\\Anes\\Desktop\\Praksa V1\\eVjezba1\\eVjezbe1.Infrastructure\\eVjezbe1.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Anes\\Desktop\\Praksa V1\\eVjezba1\\eVjezbe1.Infrastructure\\eVjezbe1.Infrastructure.csproj"
             }

@@ -1,5 +1,8 @@
 
+using eVjezbe.Service.UserServ;
 using eVjezbe1.Infrastructure.DBAccess;
+using eVjezbe1.Infrastructure.RepositoryUser;
+using eVjezbe1.Infrastructure.UoW;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 var connectionString = builder.Configuration.GetConnectionString("Konekcija");
 builder.Services.AddDbContext<ApplicationDB>(options => options.UseNpgsql(connectionString));
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

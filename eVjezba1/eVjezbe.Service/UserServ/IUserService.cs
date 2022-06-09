@@ -11,7 +11,7 @@ namespace eVjezbe.Service.UserServ
 {
     public interface IUserService
     {
-        public UserDTO GetByUsername(string id);
+        public UserDTO GetByUsername(string name);
 
     }
 }
