@@ -9,16 +9,20 @@ using System.Text;
 using System.Threading.Tasks;
 using eVjezba1.Core;
 using eVjezbe1.Infrastructure.RepositoryUser;
+using eVjezbe1.Infrastructure.UoW;
 
 namespace eVjezbe.Service.UserServ
 {
     public class UserService : IUserService
     {
-        IUserRepository _userRep;//zasto interface
-        public UserService(IUserRepository userRep)
+        UnitOfWork _unitOfWork;
+        public UserService(IUnitOfWork unitOfWork)
         {
-            _userRep = userRep;
+            _unitOfWork = (UnitOfWork)unitOfWork;
         }
-        public UserDTO GetByUsername(string name) { return _userRep.GetByUsername(name); }
+        public UserDTO GetByUsername(string name)
+        { 
+            return _unitOfWork._userRepository.GetByUsername(name); 
+        }
     }
 }

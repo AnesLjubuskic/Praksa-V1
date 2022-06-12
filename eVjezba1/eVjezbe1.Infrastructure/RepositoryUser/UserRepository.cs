@@ -21,11 +21,13 @@ namespace eVjezbe1.Infrastructure.RepositoryUser
             var user = _dbSet
                 .Where(x => x.UserName.ToLower() == name.ToLower())
                 .FirstOrDefault();
-            var result=new UserDTO
+            
+           var result=new UserDTO
             {
                 UserName = user.UserName,
+                Password=user.Password,
                 FirstName=user.FirstName,
-                LastName=user.LastName
+                LastName=user.LastName,
             };
             return result;
         }

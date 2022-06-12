@@ -1,6 +1,7 @@
 
 using eVjezbe.Service.UserServ;
 using eVjezbe1.Infrastructure.DBAccess;
+using eVjezbe1.Infrastructure.Repository;
 using eVjezbe1.Infrastructure.RepositoryUser;
 using eVjezbe1.Infrastructure.UoW;
 using Microsoft.EntityFrameworkCore;

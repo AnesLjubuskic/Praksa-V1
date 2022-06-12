@@ -37,3 +37,5 @@ C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezba1\obj\Debug\net6.0\refint\eVjezb
 C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezba1\obj\Debug\net6.0\eVjezba1.pdb
 C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezba1\obj\Debug\net6.0\eVjezba1.genruntimeconfig.cache
 C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezba1\obj\Debug\net6.0\ref\eVjezba1.dll
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezba1\bin\Debug\net6.0\eVjezbe.Service.dll
+C:\Users\Anes\Desktop\Praksa V1\eVjezba1\eVjezba1\bin\Debug\net6.0\eVjezbe.Service.pdb

@@ -13,6 +13,7 @@ namespace eVjezba1.Core
         public string Hash { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public Gender? Gender { get; set; }
 
     }
 }

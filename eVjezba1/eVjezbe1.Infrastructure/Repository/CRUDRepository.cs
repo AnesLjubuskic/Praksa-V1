@@ -11,8 +11,8 @@ namespace eVjezbe1.Infrastructure.Repository
     public abstract class CRUDRepository<TEntity> :
         ICRUDRepository<TEntity> where TEntity : class
     {
-        protected readonly ApplicationDB _dbContext { get; set; }
-        protected readonly DbSet<TEntity> _dbSet { get; set; }
+        protected  ApplicationDB _dbContext { get; set; }
+        protected  DbSet<TEntity> _dbSet { get; set; }
         public  CRUDRepository(ApplicationDB dbContext)
         {
             _dbContext= dbContext;
